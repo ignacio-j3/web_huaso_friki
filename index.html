@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Husito Friki</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img/icono.png">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Huaso Friki</a>
+            </div>
+            
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#col" onclick="seleccionar()">ENLACES</a></li>
+
+                 </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+               <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/logo.png" alt="">
+            </div>
+            <h1>Huasito Friki</h1>
+            <h2>Creador de contenido, y mucho mas</h2>
+            <div class="redes">
+                <a href="https://www.twitch.tv/huasito_friki"><i class="fa-brands fa-twitch"></i></a>
+                <a href="https://www.instagram.com/huasito_friki/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://www.youtube.com/channel/UCtZ5lHowFWwkGSelw2LUzRw"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Ignacio.</span> Soy una persona interesado en animaciones, dibujos, juegos, programacion, y varias cosas mas, como tales tambien estar ayudando, apoyando como otorgar informacion, etc. Me gusta conocer gente, imitar voces de vez en cuando. uno de potencial que puedo hacer, es hacer logos, banners, etc </p>
+
+            <div class="fila">
+                <!-- intereses -->
+                <div id="col" class="col">
+                    <h3>Enlaces</h3>
+                    <div class="contenedor-intereses">
+
+                        <div class="interes">
+                            <a href="https://www.mediafire.com/file/5ajeu8dysva0pso/SPOTIFY_PREMIUM_100%2525_M%25C3%259ASICA_OFFLINE.apk/file"><i class="fa-brands fa-spotify"></i></a>
+                            <span>DESCARGAR<br>ㅤSPOTIFY</span>
+                        </div>
+
+                        <div class="interes">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <span>CUENTAS<br>ANIME</span>
+                        </div>
+
+                        <div class="interes">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <span>CUENTAS<br>PYMES</span>
+                        </div>
+
+                        <div class="interes">
+                            <a href="#"><i class="fa-brands fa-discord"></i></a>
+                            <span>NUESTRO<br>SERVIDOR</span>
+                        </div>
+
+                        <div class="interes">
+                            <a href="https://wall.alphacoders.com/?lang=Spanish"><i class="fa-solid fa-camera"></i></a>
+                            <span>WALLPAPER <br>ㅤ  ABYSS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.twitch.tv/huasito_friki"><i class="fa-brands fa-twitch"></i></a>
+            <a href="https://www.instagram.com/huasito_friki/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://www.youtube.com/channel/UCtZ5lHowFWwkGSelw2LUzRw"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
