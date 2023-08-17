@@ -132,11 +132,12 @@ html{
     font-weight: bold;
 }
 .sobremi .fila{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.597), rgba(0, 0, 0, 0.477)),
+    url(img/fondo3.jpg) no-repeat center;
+    background-size: cover;
     display: flex;
 }
 .sobremi .fila .col{
-    background: linear-gradient(to top, rgba(1, 158, 248, 0.266), rgba(30,35,38,1)),
-    url(img/fondo.png);
     width: 100%;
 }
 .sobremi .fila .col h3{
@@ -239,6 +240,10 @@ footer .redes a{
     font-size: 20px;
     transition: .3s;
 }
+footer .redes a:hover{
+    background-color: #00ff11;
+}
+
 footer .arriba{
     display: block;
     width: 60px;
