@@ -132,8 +132,7 @@ html{
     font-weight: bold;
 }
 .sobremi .fila{
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.597), rgba(0, 0, 0, 0.477)),
-    url(img/fondo3.jpg) no-repeat center;
+    background: url(img/fondo3.jpg) no-repeat center;
     background-size: cover;
     display: flex;
 }
